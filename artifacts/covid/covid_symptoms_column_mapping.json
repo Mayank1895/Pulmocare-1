@@ -1,0 +1,23 @@
+{
+  "breathing_problem": "Breathing Problem",
+  "fever": "Fever",
+  "dry_cough": "Dry Cough",
+  "sore_throat": "Sore throat",
+  "runny_nose": "Running Nose",
+  "asthma": "Asthma",
+  "chronic_lung_disease": "Chronic Lung Disease",
+  "headache": "Headache",
+  "heart_disease": "Heart Disease",
+  "diabetes": "Diabetes",
+  "hypertension": "Hyper Tension",
+  "fatigue": "Fatigue ",
+  "gastrointestinal": "Gastrointestinal ",
+  "abroad_travel": "Abroad travel",
+  "contact_with_covid_patient": "Contact with COVID Patient",
+  "attended_large_gathering": "Attended Large Gathering",
+  "visited_public_exposed_places": "Visited Public Exposed Places",
+  "family_working_public_exposed_places": "Family working in Public Exposed Places",
+  "wearing_masks": "Wearing Masks",
+  "sanitization_from_market": "Sanitization from Market",
+  "target_covid19": "COVID-19"
+}

@@ -1,0 +1,1 @@
+{"numeric_means": {"age": 45.320422535211264, "temperature": 38.15035211267606}, "categorical_modes": {"gender": "f", "cough": "nan", "fever": "nan", "shortness_of_breath": "nan", "chest_pain": "nan", "fatigue": "mild", "confusion": "no", "oxygen_saturation": "nan", "crackles": "no", "xray": "-", "wbc_count": "nan", "sputum_color": "clear"}}

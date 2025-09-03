@@ -1,0 +1,1 @@
+{"numeric_cols": ["age", "temperature"], "categorical_cols": ["gender", "cough", "fever", "shortness_of_breath", "chest_pain", "fatigue", "confusion", "oxygen_saturation", "crackles", "xray", "wbc_count", "sputum_color"]}
