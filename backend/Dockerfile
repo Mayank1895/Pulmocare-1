@@ -4,18 +4,22 @@ FROM python:3.10-slim
 # Set working directory inside container
 WORKDIR /app
 
-# Copy requirements first (for Docker caching)
+# Copy requirements first (for caching)
 COPY ./backend/requirements.txt .
 
-# Upgrade pip & install dependencies
+# Install dependencies
 RUN pip install --no-cache-dir --upgrade pip \
     && pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the backend code
+# Copy backend code
 COPY ./backend .
 
-# Expose port 8000
+# Copy models and artifacts from project root
+COPY ./models /models
+COPY ./artifacts /artifacts
+
+# Expose port
 EXPOSE 8000
 
-# Command to run FastAPI app
+# Run FastAPI app
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
